@@ -1,1 +1,7 @@
-
+<script>
+  // Check if the current URL already contains the query parameter 'path'
+  if (window.location.href.indexOf('path=') === -1) {
+    // If not, append the query parameter 'path=index.ipynb'
+    window.location.href = window.location.href + '?path=index.ipynb';
+  }
+</script>
